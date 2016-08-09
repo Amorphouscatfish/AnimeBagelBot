@@ -6,6 +6,8 @@ var config = require('./config');
 
 var T = new Twit(config);
 
+random rand = new random();
+
 var M = rand.nextint(4) + 1;
 
 if (M = 1) {
