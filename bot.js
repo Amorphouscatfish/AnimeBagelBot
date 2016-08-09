@@ -6,7 +6,7 @@ var config = require('./config');
 
 var T = new Twit(config);
 
-var M = Math.floor(Math.random()*4) + 1
+var M = rand.nextint(4) + 1;
 
 if (M = 1) {
 	var rMessage = "Want to here a bagel fact? Well so do I."
